@@ -1,0 +1,59 @@
+
+/* .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    display: inline-block;
+}
+.nav li{
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: orange;
+    line-height: 70px;
+    gap: 2px;
+   
+} */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-name div{
+    display: inline-flex;
+    gap: 20px;
+    border: 1px solid orange;
+    background-color: chocolate;
+    padding: 5px;
+}
+
+.footer{
+    display: flex;
+    bottom: 0;
+    height: 80vh;
+    
+}
+
+
+.first-footer{
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+    bottom: 0px;
+    
+    
+}
+
+.first-footer li{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
